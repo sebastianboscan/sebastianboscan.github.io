@@ -1,16 +1,18 @@
 body {
-    background-color: black;
+    background-color: #f4f7f6;
+    color: #333333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
+header {
+    background-color: #0e76a8;
     color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-h2 {
-    text-align: left;
-    color: white;
+h1, h2 {
+    color: #0e76a8;
 }
 
 .contact {
