@@ -20,8 +20,13 @@ h2 {
     color: #0e76a8;
 }
 
-.contact {
-    color: coral;
+/* Classes: about, skills, projects, project, contact */
+.about {
+    font-weight: bold; /*Provisional, will change after PM1 is graded*/
+}
+
+.skills {
+    font-style: italic; /*Provisional, will change after PM1 is graded*/
 }
 
 .projects {
@@ -43,4 +48,8 @@ h2 {
 .project img {
     max-width: 80%;
     height: auto;
+}
+
+.contact {
+    color: coral;
 }
