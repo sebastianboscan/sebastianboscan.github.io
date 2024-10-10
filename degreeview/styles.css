@@ -21,6 +21,11 @@ body {
     align-items: flex-start;
 }
 
+/* Show class to toggle visibility */
+.nav-menu.show {
+    display: flex;
+}
+
 .nav-menu a {
     padding: 10px 20px;
     text-decoration: none;
