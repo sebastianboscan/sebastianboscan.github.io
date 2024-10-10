@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to DegreeView</h1>
-        <p>This is the dashboard. More content will be added soon.</p>
+    <!-- Menu toggle button -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+    <!-- Navigation menu -->
+    <div class="nav-menu" id="navMenu">
+        <a href="#">Dashboard</a>
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Advising</a>
     </div>
+    
+    <!-- Main content -->
+    <div class="content">
+        <h1>Welcome to DegreeView Dashboard</h1>
+        <p>Search for your major below:</p>
+        <!-- You can add your search functionality here -->
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
